@@ -23,7 +23,9 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection/>
+            <selection>
+                <sel id="5"/>
+            </selection>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
             <sources/>
@@ -46,9 +48,9 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="50"/>
-                <child id="54"/>
                 <child id="57"/>
+                <child id="54"/>
+                <child id="50"/>
                 <child id="10"/>
                 <child id="11"/>
                 <child id="15"/>
@@ -56,12 +58,11 @@
                 <child id="17"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Morehead"/>
-            <airport always_flatten="0" drive_on_left="0" elevation="23.2" has_atc="0" icao="XAYMHY" kind="Airport" scenery_id="-1"/>
+            <airport always_flatten="0" drive_on_left="0" elevation="23.2" has_atc="0" icao="MHD" kind="Airport" scenery_id="-1"/>
             <meta_data>
                 <meta_data_entry pair="city,Morehead"/>
                 <meta_data_entry pair="country,Papua New Guinea"/>
-                <meta_data_entry pair="iata_code,MHY"/>
-                <meta_data_entry pair="state,Western (Fly River)"/>
+                <meta_data_entry pair="iata_code,MHD"/>
             </meta_data>
         </object>
         <object class="WED_Group" id="10" parent_id="5">
@@ -341,7 +342,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="Parking 1"/>
             <point heading="185.98" latitude="-8.712914310" longitude="141.641380200"/>
-            <ramp_start airlines="" ramp_op_type="Airline" traffic="31" type="Tie-Down" width="A"/>
+            <ramp_start airlines="" ramp_op_type="General Aviation" traffic="31" type="Tie-Down" width="A"/>
         </object>
         <object class="WED_TowerViewpoint" id="45" parent_id="16">
             <sources/>
@@ -414,17 +415,8 @@
             <viewers/>
             <children>
                 <child id="53"/>
-                <child id="55"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Objects"/>
-        </object>
-        <object class="WED_ObjPlacement" id="55" parent_id="54">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="lib/airport/aircraft/cargo/prop_a.obj"/>
-            <point heading="180.68" latitude="-8.712874323" longitude="141.641708152"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/cargo/prop_a.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ForestPlacement" id="56" parent_id="57">
             <sources/>
@@ -879,25 +871,19 @@
     <prefs>
         <pref name="PropertyPane0/Closed">
             <item value="10"/>
-            <item value="11"/>
-            <item value="15"/>
-            <item value="16"/>
             <item value="17"/>
-            <item value="50"/>
-            <item value="54"/>
-            <item value="57"/>
         </pref>
         <pref name="doc/export_target" value="5"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="141.648456"/>
-        <pref name="map/north" value="-8.706894"/>
+        <pref name="map/east" value="141.643145"/>
+        <pref name="map/north" value="-8.711926"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="-8.725356"/>
+        <pref name="map/south" value="-8.714199"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="141.631930"/>
+        <pref name="map/west" value="141.641239"/>
         <pref name="map/world_map_vis" value="0"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -919,10 +905,10 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/dashed_line.lin"/>
-        <pref name="map_Objects_Object" value="lib/g10/forests/autogen_tree1.obj"/>
+        <pref name="map_Objects_Object" value="lib/g10/US/suburban/dB-RnchLHGry.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="lib/g10/terrain10/wetl_shrb_wrm_wet_tp.pol"/>
+        <pref name="map_Polygons_Resource" value="lib/g8/pol/rainforest_flat_low.pol"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
         <pref name="map_Ramp Start_Equipment Type" value="132"/>
@@ -945,10 +931,14 @@
         <pref name="map_Sign_Text" value="{@R}24-06{@@,@Y}WELCOME"/>
         <pref name="map_Strings_Resource" value="lib/airport/lights/slow/102_edge_twy_B.str"/>
         <pref name="map_Strings_Spacing" value="5.000000"/>
-        <pref name="map_Taxi Routes_." value="524"/>
-        <pref name="map_Taxi Routes_Allowed Vehicles" value="145"/>
-        <pref name="map_Taxi Routes_Name" value="GPURoute"/>
-        <pref name="map_Taxi Routes_Oneway" value="0"/>
+        <pref name="map_Taxi Routes_Allowed Vehicles" value="144"/>
+        <pref name="map_Taxi Routes_Arrival" value=""/>
+        <pref name="map_Taxi Routes_Departure" value=""/>
+        <pref name="map_Taxi Routes_ILS" value=""/>
+        <pref name="map_Taxi Routes_Name" value="B"/>
+        <pref name="map_Taxi Routes_Oneway" value="1"/>
+        <pref name="map_Taxi Routes_Runway" value="305"/>
+        <pref name="map_Taxi Routes_Size" value="525"/>
         <pref name="map_Taxi Routes_Slop" value="20"/>
         <pref name="map_Taxilines_.Markings" value="78"/>
         <pref name="map_Taxilines_Lights" value=""/>
@@ -966,10 +956,10 @@
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
         <pref name="window/height" value="827"/>
-        <pref name="window/main_split" value="322"/>
-        <pref name="window/main_split2" value="1118"/>
-        <pref name="window/prev_split" value="189"/>
-        <pref name="window/prop_split" value="516"/>
+        <pref name="window/main_split" value="314"/>
+        <pref name="window/main_split2" value="1066"/>
+        <pref name="window/prev_split" value="289"/>
+        <pref name="window/prop_split" value="384"/>
         <pref name="window/width" value="1440"/>
         <pref name="window/x_loc" value="-1448"/>
         <pref name="window/y_loc" value="168"/>
